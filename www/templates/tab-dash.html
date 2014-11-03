@@ -2,5 +2,11 @@
   <ion-content class="padding">
     <h1>Dash je napisao Koma</h1>
     {{ime}}
+    <ul>
+    	<!--Added new loop za niz-->
+    	<li ng-repeat="trenutni in niz">{{trenutni}}</li>
+    </ul>
+    <input type='text' ng-module='test'>
+    <button 
   </ion-content>
 </ion-view>
