@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
+	$scope.ime = "Vita";
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
