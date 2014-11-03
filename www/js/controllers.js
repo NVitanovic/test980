@@ -4,7 +4,11 @@ angular.module('starter.controllers', [])
 	$scope.ime = "Vita";
 	//dodat niz
 	$scope.niz = ['ananas','jabuka','kruska','sljiva'];
-	$scope.niz.push('asdasd');
+	
+	$scope.dodaj = function ()
+	{
+		$scope.niz.push(test);
+	};
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
